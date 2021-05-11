@@ -1,0 +1,27 @@
+<div class="container" *ngIf="pessoaSelecionada">
+    <div [(ngModel)] ="pessoaSelecionada.image"></div>
+    nome :
+    <div [(ngModel)] ="pessoaSelecionada.name"></div>
+    <div [(ngModel)] ="pessoaSelecionada.image"></div>
+</div>
+
+<div class="container" *ngIf="mostrarCadastro">
+    <div>
+        <br>
+        <strong>NOME</strong>
+        <br>
+        <input type="text">
+        <br>
+    </div>
+    <div>
+        <strong>IDADE</strong>
+        <br>
+        <input type="number">
+        <br>
+    </div>
+    <div>
+        <strong>FOTO</strong>
+        <br>
+        <input type="text">
+    </div>
+</div>

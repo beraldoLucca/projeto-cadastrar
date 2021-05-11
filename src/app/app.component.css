@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+aside{
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}

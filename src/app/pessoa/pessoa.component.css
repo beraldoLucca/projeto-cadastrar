@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+    width: 30%;
+}
+.grid-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-container > li {
+    text-align:center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 20px;
+  }
+
+  .item{
+    background-color: rgb(13, 192, 13);
+  }
+
